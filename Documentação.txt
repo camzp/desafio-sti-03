@@ -1,0 +1,30 @@
+O Desafio escolhido foi o de número 03 - Cálculo de CR.
+
+Construção da Resolução:
+Criação de duas classes, Aluno e Disciplina. Dentro de cada classe foram inicializadas ArrayList para agrupar valores de interesse.
+Criação de duas classes para a manipulação das Listas que envolvivam cada Classe.
+Criação de uma classe para leitura do arquivo.
+
+Foram utilizados no projeto:
+
+Java 8
+NetBeans IDE
+https://commons.apache.org/proper/commons-csv/download_csv.cgi
+
+Melhorias:
+
+A resolução atende bem o que foi pedido, porém não foi feito da forma mais eficiente.
+O código tem algumas redundâncias, visto que o cálculo do CR foi feito da mesma forma, mas duas vezes, um para o Aluno e uma para a Matéria.
+O Aluno tem todas as informações de interesse para calcular o CR do Aluno não reaproveita nenhuma informação vinda da classe matéria. E vice-versa.
+Uma das formas de fazer isso seria reaproveitando a classe matéria, criando um ArrayList de matérias para o Aluno.
+
+
+Referencias:
+
+Como ler um arquivo JAVA
+https://www.callicoder.com/java-read-write-csv-file-apache-commons-csv/
+
+Coleções
+http://www.dsc.ufcg.edu.br/~jacques/cursos/p2/html/oo/colecoes.html
+
+
